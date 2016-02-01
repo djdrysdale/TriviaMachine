@@ -1,0 +1,169 @@
+/* =================================
+  Base Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  background: black;
+}
+
+.wrapper {
+  width: 100%;
+  /*background-image: url("images/vanitas.jpg");*/
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  height:auto;
+  margin: 10px auto 10px auto;
+  min-height: 250px;
+  min-height: 0px;
+  background-color:rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 50px;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  line-height: 1.25em;
+  text-align: center;
+
+}
+
+#answerDiv {
+  min-height: 0;
+  margin: 0px auto;
+  display:none;
+}
+
+header, footer {
+  background: black;
+  color: white;
+  height: 1em;
+  padding-top: .25em;
+  padding-left: 1em;
+  font-size: .75em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.33em;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+#answer {
+  width: 75%;
+  height: 2em;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  font-size: .75em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.33em;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  box-shadow: -3px -3px -5px #eeeeee;
+  margin-bottom: 10px;
+
+}
+
+#scoreDiv {
+  min-height:0;
+  display:none;
+}
+
+#questionDiv {
+  min-height: 300px;
+}
+
+.wrongResponses {
+  text-align: center;
+  display: table;
+  width: 100%;
+  min-height: 2em;
+  color: white;
+}
+
+li {
+  display:table-cell;
+  font-size: 1em;
+  width: 33%;
+}
+
+#categoryName {
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.welcome {
+  margin-bottom: 25px;
+}
+
+/* =================================
+  Buttons
+==================================== */
+
+.answerButton {
+
+  width: 75%;
+  height: 75px;
+  background: black;
+  color: white;
+  font-size: .75em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.33em;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  border: none;
+  box-shadow: 3px 3px 5px #111111;
+
+}
+
+button.answerButton:hover {
+  background: green;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+  header, footer {
+    height: 2em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .content {
+    width: 70%;
+    min-height: 250px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .answer, .score {
+    min-height:0px;
+  }
+
+  .wrongResponses {
+    font-weight: 800;
+  }
+
+  li {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1919px) {
+  .content {
+    min-height: 300px;
+
+  }
+}

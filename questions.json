@@ -1,0 +1,356 @@
+[
+		{
+			"category": "Arts and Literature",
+			"question": "Whose 1823 poem 'A Visit from St Nicholas' inspired much of the modern image of Santa Claus?",
+			"answer": ["clement moore","clement clarke moore","clement c moore", "clement c. moore", "moore"],
+			"asked":"false"
+		},
+		{
+			"category": "Entertainment",
+			"question": "What are the odds of successfully navigating an asteroid field, according to C3PO?",
+			"answer": ["3720 to 1","3,720 to 1", "3720:1","3,720:1", "three thousand, seven hundred and twenty to one", "three thousand seven hundred and twenty to one"],
+			"asked":"false"
+		},
+		{
+			"category": "The Simpsons",
+			"question": "What are nachos, Flanders-style?",
+			"answer": ["cucumber slices and cottage cheese","cucumber and cottage cheese","cucumbers and cottage cheese","cucumbers with cottage cheese","cucumber cottage cheese","cottage cheese and cucumber","cottage cheese and cucumbers","cucumber slices with cottage cheese"],
+			"asked":"false"
+		},
+		{
+			"category": "Business",
+			"question": "What Apple co-founder met his first wife after hanging up on her when she phoned his Dial-a-Joke line?",
+			"answer": ["steve wozniak","wozniak","woz"],
+			"asked":"false"
+		},
+		{
+			"category": "Geography",
+			"question": "What geographic point moves north-northwest across the arctic at about 55 kilometers per hour?",
+			"answer": ["the magnetic north pole","north pole","magnetic north pole"],
+			"asked":"false"
+		},
+		{
+			"category": "Arts and Culture",
+			"question": "Who has a posse, according to stickers designed by street artist Shephard Fairey?",
+			"answer": ["andre the giant","andre","andre rousimoff","andré rousimoff","andré the giant"],
+			"asked":"false"
+		},
+		{
+			"category": "Entertainment",
+			"question": "What German board game are you likely playing if someone offers you sheep for your wood?",
+			"answer": ["settlers of catan","catan","settlers","the settlers of catan"],
+			"asked":"false"
+		},
+		{
+			"category": "Geography",
+			"question": "What South American lake's name is not as dirty as it sounds, often translated to mean 'Rock Puma'?",
+			"answer": ["lake titicaca","titicaca"],
+			"asked":"false"
+		},
+		{
+			"category": "Science and Nature",
+			"question": "What special property characterizes rocks called lodestones?",
+			"answer": ["magnetism","magnetized","magnets","magnetic","magnet"],
+			"asked":"false"
+		},
+		{
+			"category": "Entertainment,",
+			"question": "What Hateful Eight director had an early role as an Elvis impersonator on Golden Girls?",
+			"answer": ["quentin tarantino","tarantino"],
+			"asked":"false"
+		},
+		{
+			"category": "Geography",
+			"question": "What is the only Caribbean island with a railway?",
+			"answer": ["cuba"],
+			"asked":"false"
+		},
+		{
+			"category": "The Simpsons",
+			"question": "Who guest-starred on The Simpsons under the pseudonym 'Sam Etic'?",
+			"answer": ["dustin hoffman","hoffman"],
+			"asked":"false"
+		},
+		{
+			"category": "Sports and Leisure",
+			"question": "What president was the first to throw out the first pitch in the World Series?",
+			"answer": ["woodrow wilson","wilson"],
+			"asked":"false"
+		},
+		{
+			"category": "Sports and Leisure",
+			"question": "What baseball team was famously described in 1909 as being 'first in war, first in peace, and last in the American League'?",
+			"answer": ["the washington senators","washington senators","senators","washington"],
+			"asked":"false"
+		},
+		{
+			"category": "Entertainment",
+			"question": "What Founding Father is 'just like [his] country ... young, scrappy, and hungry' in a 2015 Broadway musical?",
+			"answer": ["alexander hamilton","hamilton"],
+			"asked":"false"
+		},
+		{
+			"category": "Entertainment",
+			"question": "What band has released albums including 'The King of Limbs,' 'In Rainbows', and 'The Bends'?",
+			"answer": ["radiohead"],
+			"asked":"false"
+		},
+		{
+			"category": "Geography",
+			"question": "What Canadian provincial capital is home to Trounce Alley, Bastion Square, and Beacon Hill Park?",
+			"answer": ["victoria","victoria bc", "victora, b.c.", "victoria, bc","victoria british columbia","victoria, british columbia"],
+			"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "What member of our solar system has a moon named for Greek mythology's ferryman of the dead?",
+		"answer": ["pluto"],
+		"asked":"false"
+		},
+		{
+		"category": "Geography",
+		"question": "What Parisian landmark was described as a 'hateful column of bolted sheet metal' by a group of artists who objected to its construction?",
+		"answer": ["eiffel tower","the eiffel tower", "eiffel"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "What great American novel closes with 'So we beat on, boats against the current, borne back ceaselessly into the past'?",
+		"answer": ["the great gatsby","great gatsby","gatsby"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "Who played Sam Spade, Phillip Marlowe, and Philip Francis Queeg in the movies?",
+		"answer": ["bogart","humphrey bogart","bogey","bogie"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "What American novel features harpooneers named Tashtego, Dagoo, and Queequeg?",
+		"answer": ["moby-dick", "moby dick", "the whale", "moby-dick, or, the whale", "moby-dick or the whale", "moby dick or the whale","moby dick, or the whale"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "The construction of what US monument was halted between 1854 and 1877, partly due to lack of funds?",
+		"answer": ["washington monument","the washington monument"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What comic book quartet were mentored by a rat named Splinter?",
+		"answer": ["ninja turtles","teenage mutant ninja turtles","turtles","tmnt","mutant ninja turtles"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "Who was the walrus, according to the Beatles' song 'Glass Onion'?",
+		"answer": ["paul","mccartney","paul mccartney"],
+		"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "According to legend, who discovered the principle of fluid displacement while relaxing in the bathtub?",
+		"answer": ["archimedes"],
+		"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "What element's Latin name is 'plumbum'?",
+		"answer": ["lead"],
+		"asked":"false"
+		},
+		{
+		"category": "Sports and Leisure",
+		"question": "What Czech tennis star is the only player in history to have held the top ranking in both singles and doubles for over 200 weeks?",
+		"answer": ["martina navratilova","navratilova"],
+		"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "What semiaquatic herbivorous mammal is responsible for the greatest number of human deaths in Africa?",
+		"answer": ["the hippopotamus","hippopotamus","hippo","hippos"],
+		"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "What fruit becomes a prune after it is dried?",
+		"answer": ["plum"],
+		"asked":"false"
+		},
+		{
+		"category": "Geography",
+		"question": "What country's capital city is Helsinki?",
+		"answer": ["finland"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "Who led the children of Hamlin away after their parents refused to pay for his rodent-removal services?",
+		"answer": ["the pied piper", "pied piper of hamlin", "piper", "pied piper"],
+		"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "What does the F stand for in the Newtonian formula F = ma?",
+		"answer": ["force"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "What painter cut off his own ear, reportedly following a quarrel with Paul Guaguin?",
+		"answer": ["vincent van gogh", "van gogh","vincent willem van gogh"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What longtime Chicago Sun-Times movie critic said, 'Every great film should seem new every time you see it'?",
+		"answer": ["roger ebert","ebert"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What Saturday Night Live writer and performer went on to star in 30 Rock?",
+		"answer": ["tina fey","fey"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "The ruins of what city, made famous in Homer's Iliad, were discovered by Heirich Schliemann in 1870?",
+		"answer": ["troy","hissarlik"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "What country constructed the heavily fortified Maginot Line in the 1930s as a bulwark against invasion?",
+		"answer": ["france"],
+		"asked":"false"
+		},
+		{
+		"category": "Science and Nature",
+		"question": "Whose general theory of relativity is one of the pillars of modern physics?",
+		"answer": ["albert einstein", "einstein"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "What 20th-century painter is responsible for works such as 'Automat,' 'Chop Suey', and 'Nighthawks'?",
+		"answer": ["edward hopper", "hopper"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "Whose novel 'Heart of Darkness' was based in part on his excurions as captain of a steamer on the Congo River?",
+		"answer": ["joseph conrad", "conrad"],
+		"asked":"false"
+		},
+		{
+		"category": "Sports and Leisure",
+		"question": "How many points is the letter 'Q' worth in Scrabble?",
+		"answer": ["10", "ten"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "Which of Shakespeare's play pits Iago against, well, pretty much everyone?",
+		"answer": ["othello", "the tragedy of othello","the tragedy of othello, the moor of venice","the tragedy of othello the moor of venice"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "In what war did the Battle of Agincourt take place?",
+		"answer": ["the hundred years' war", "the hundred years war", "hundred years war", "hundred years' war", "the 100 years' war", "the 100 years war","100 years' war","100 years war"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "Who performed as Wooster to Stephen Fry's Jeeves, long before portraying Dr. House?",
+		"answer": ["hugh laurie","laurie"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What DC comics speedster used a cosmic treadmill to travel to the 30th century and reunite with his wife?",
+		"answer": ["the flash","flash","barry allen"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What ET and Charlie's Angels actress is godmother to Kurt Cobain and Courtney Love's daughter?",
+		"answer": ["drew barrymore","barrymore"],
+		"asked":"false"
+		},
+		{
+		"category": "Geography",
+		"question": "What 'forbidden' Tibetan city is the site of Potala Palace, Jokhang Temple, and the Norbulingka?",
+		"answer": ["lhasa"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "Whose Don Quixote is widely considered to be the first modern European novel?",
+		"answer": ["miguel de cervantes", "cervantes","miguel de cervantes saavedra"],
+		"asked":"false"
+		},
+		{
+		"category": "Geography",
+		"question": "What Romanian region's English name means 'beyond the forest'?",
+		"answer": ["transylvania"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "What creator of Calvin and Hobbes came out of retirement in 2014 to draw three strips for the comic Pearls Before Swine?",
+		"answer": ["bill watterson","watterson"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "Whose tomb did Howard Carter discover in the Valley of the Kings in 1922?",
+		"answer": ["tutankhaman","tut","king tut"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "What cowboy followed up the Gunfight at the OK Corral with stints as a real estate speculator, boxing referee, and Seattle saloon owner?",
+		"answer": ["wyatt earp","earp"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What long-running British series has pitted its hero against Daleks, Cybermen, and Weeping Angels?",
+		"answer": ["doctor who","dr who","dr. who"],
+		"asked":"false"
+		},
+		{
+		"category": "Entertainment",
+		"question": "What 1992 U2 album was recorded, appropriately enough, in Germany?",
+		"answer": ["achtung baby","achtung, baby", "achtung baby!","achtung, baby!"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "What American transcendentalist wrote, 'A foolish consistency is the hobgoblin of litle mind'?",
+		"answer": ["ralph waldo emerson", "emerson", "ralph emerson", "waldo emerson"],
+		"asked":"false"
+		},
+		{
+		"category": "Arts and Literature",
+		"question": "Who wrote in Leviathan that the life of man in the state of nature is 'nasty, brutish, and short'?",
+		"answer": ["thomas hobbes","hobbes"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "What people built Machu Picchu in the Cuzco region of Peru?",
+		"answer": ["the incas","incas","inca","the inca"],
+		"asked":"false"
+		},
+		{
+		"category": "History",
+		"question": "What colourful former NBA star vowed eternal friendship with North Korean leader Kim Jong-un? in 2013?",
+		"answer": ["dennis rodman","rodman"],
+		"asked":"false"
+		}
+	]

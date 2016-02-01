@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>The Trivia Machine</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+  </head>
+
+  <body>
+
+      <header>
+        <h1>The Trivia Machine</h1>
+      </header>
+
+    <div class="wrapper">
+
+      <div class="container">
+
+        <div class="content" id="questionDiv">
+          <div id="welcome">
+            <p class="welcome">Welcome to the Trivia Machine. You will be asked a series of questions. If you make three incorrect responses, you lose. Enter "end" at any time to quit.</p>
+            <button class="answerButton" id="beginButton" onclick="initialize()">Begin</button>
+          </div>
+        </div>
+
+        <div class="content" id="answerDiv">
+          <form id ="answerForm">
+            <input type ="text" id ="answer" name="answer" value="">
+            <button class="answerButton" id="answerButton">I'm sure of it.</button>
+          </form>
+          <ul class="wrongResponses">
+          </ul>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  </body>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="scripts.js"></script>
+  <script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/md5.js"></script>
+</html>
