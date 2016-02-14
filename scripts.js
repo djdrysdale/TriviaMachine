@@ -44,8 +44,7 @@ function askQuestion() {
       askedCount++;
       currentCategory = categories[questionNumber];
       currentQuestion = questions[questionNumber];
-      /* correctResponse = answers[questionNumber]; */
-      document.getElementById('questionDiv').innerHTML = '<h2 id ="categoryName">' + currentCategory + '</h2> <p>' + currentQuestion + '</p>';
+      $('#questionDiv').html('<h2 id ="categoryName">' + currentCategory + '</h2> <p>' + currentQuestion + '</p>');
     }
   };
 };
@@ -64,7 +63,7 @@ $("#answer").focus(function() {
 // handles correct response
 function handleCorrectResponse() {
   score++;
-  document.getElementById('questionDiv').innerHTML = "Good. That is correct.";
+  $('#questionDiv').html('<p>Good. That is correct.</p>');
   setTimeout(function(){
     askQuestion();
   }, 1250);
@@ -75,12 +74,12 @@ function endGame() {
   $("#welcome").toggle("slow");
   $("#answerDiv").toggle("slow");
   $("#scoreDiv").toggle("slow");
-  document.getElementById('questionDiv').innerHTML = '<p>That is incorrect. The answer is ' + correctResponse[0] + '.</p>' + '<p>Your final score is ' + score + '.</p>';
+  $('#questionDiv').html('<p>That is incorrect. The answer is ' + correctResponse[0] + '.</p>' + '<p>Your final score is ' + score + '.</p>');
 }
 
 // show correct response if the user gets it
 function showCorrectResponse() {
-  document.getElementById('questionDiv').innerHTML = 'That is incorrect. The answer is ' + correctResponse[0] + '.';
+  $('#questionDiv').html('That is incorrect. The answer is ' + correctResponse[0] + '.');
   setTimeout(function(){
     askQuestion();
   }, 1750);
@@ -119,7 +118,7 @@ function userRequestsEnd() {
   $("#welcome").toggle("slow");
   $("#answerDiv").toggle("slow");
   $("#scoreDiv").toggle("slow");
-  document.getElementById('questionDiv').innerHTML = '<p>You have ended the game. Your final score is ' + score + '.</p>';
+  $('#questionDiv').html('<p>You have ended the game. Your final score is ' + score + '.</p>');
 }
 
 //no more questions left
@@ -127,5 +126,5 @@ function showWinState() {
   $("#welcome").toggle("slow");
   $("#answerDiv").toggle("slow");
   $("#scoreDiv").toggle("slow");
-  document.getElementById('questionDiv').innerHTML = '<p>Congratulations. You have answered all of my questions. You win, with a final score of ' + score + '.</p>';
+  $('#questionDiv').html('<p>Congratulations. You have answered all of my questions. You win, with a final score of ' + score + '.</p>');
 }
