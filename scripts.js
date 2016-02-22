@@ -2,28 +2,15 @@
 
 var score = 0;
 var wrongAnswers = 0;
-var questions=[];
-var answers=[];
-var categories=[];
-var questionAsked=[];
-var correctResponse;
-var playerResponse = "";
 var questionNumber;
-var currentCategory;
 var currentQuestion;
 var askedCount = 0;
 
 $(document).ready(function() {
   $.getJSON('questions.json', function(data) {
-    $.each(data, function(key, val) {
-      questions.push(val.question);
-      answers.push(val.answer);
-      categories.push(val.category);
-      questionAsked.push(val.asked);
-    });
+    questions = data;
   });
 });
-
 
 function initialize() {
   drawGameInterface();
@@ -36,23 +23,20 @@ function askQuestion() {
     showWinState();
   }
     else {
-    questionNumber = Math.floor(Math.random() * (questions.length - 0)) + 0;
-    if (questionAsked[questionNumber] === "true") {
+    questionNumber = Math.floor(Math.random() * questions.length);
+    currentQuestion = questions[questionNumber];
+    if (currentQuestion.asked === "true") {
       askQuestion();
       }
     else {
       askedCount++;
-      currentCategory = categories[questionNumber];
-      currentQuestion = questions[questionNumber];
-      $('#questionDiv').html('<h2 id ="categoryName">' + currentCategory + '</h2> <p>' + currentQuestion + '</p>');
+      $('#questionDiv').html('<h2 id ="categoryName">' + currentQuestion.category + '</h2> <p>' + currentQuestion.question + '</p>');
     }
   };
 };
 
 function drawGameInterface() {
-  $("#welcome").toggle("slow");
-  $("#answerDiv").toggle("slow");
-  $("#scoreDiv").toggle("slow");
+  $("#welcome, #answerDiv, #scoreDiv").toggle("slow");
 };
 
 // hides the placeholder text when user clicks in the answer box-sizing
@@ -74,12 +58,12 @@ function endGame() {
   $("#welcome").toggle("slow");
   $("#answerDiv").toggle("slow");
   $("#scoreDiv").toggle("slow");
-  $('#questionDiv').html('<p>That is incorrect. The answer is ' + correctResponse[0] + '.</p>' + '<p>Your final score is ' + score + '.</p>');
+  $('#questionDiv').html('<p>That is incorrect. The answer is ' + currentQuestion.answer[0] + '.</p>' + '<p>Your final score is ' + score + '.</p>');
 }
 
 // show correct response if the user gets it
 function showCorrectResponse() {
-  $('#questionDiv').html('That is incorrect. The answer is ' + correctResponse[0] + '.');
+  $('#questionDiv').html('That is incorrect. The answer is ' + currentQuestion.answer[0] + '.');
   setTimeout(function(){
     askQuestion();
   }, 1750);
@@ -88,15 +72,15 @@ function showCorrectResponse() {
 // get the user's answer
 $("#answerForm").submit(function(){
   event.preventDefault();
-  correctResponse = (answers[questionNumber]);
+//  correctResponse = (answers[questionNumber]);
   $("#answerButton").prop("disabled",true);
-  questionAsked[questionNumber] = "true";
+  currentQuestion.asked = "true";
   playerResponse = $('#answer').val().toLowerCase();
   $("#answer").val("");
 
   if (playerResponse === "end") {
     userRequestsEnd();
-  } else if (jQuery.inArray(playerResponse, correctResponse) !== -1) {
+  } else if (jQuery.inArray(playerResponse, currentQuestion.answer) !== -1) {
     handleCorrectResponse();
   } else {
     handleWrongResponse();
